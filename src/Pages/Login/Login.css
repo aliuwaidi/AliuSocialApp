@@ -1,0 +1,85 @@
+.login {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background: rgb(220, 215, 215);
+}
+
+.loginLeft,
+.loginRight {
+	margin: 0 20px 0 20px;
+}
+
+.loginTitle {
+	font-size: 54px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	color: #1877f2;
+}
+
+.loginInfo {
+	font-size: 24px;
+	font-weight: 400;
+	color: #555;
+}
+
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	padding: 20px;
+	border: none;
+	border-radius: 5px;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+}
+
+input {
+	width: 90%;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+input:focus {
+	outline: none;
+}
+button {
+	width: 100%;
+	padding: 20px;
+	margin: 15px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	background: #1877f2;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #5787c5;
+}
+
+.loginCreateAccount {
+	width: 70%;
+	color: #fff;
+	background: green;
+}
+
+.loginCreateAccount:hover {
+	background: rgb(95, 211, 95);
+}
+
+.loginForget {
+	color: #1877f2;
+	margin: 20px 0;
+}
+
+.loginTitle:hover,
+.loginForget:hover {
+	color: #5787c5;
+	cursor: pointer;
+}
