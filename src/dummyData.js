@@ -1,52 +1,52 @@
 export const Users = [
   {
     id:1,
-    profilePicture: "Image/Profile/2.jpg",
+    profilePicture: "Profile/2.jpg",
     username: "Aliuwaidi",
   },
   {
     id:2,
-    profilePicture: "Image/Profile/1.jpg",
+    profilePicture: "Profile/1.jpg",
     username: "Janell Shrum",
   },
   {
     id:3,
-    profilePicture: "Image/Profile/3.jpg",
+    profilePicture: "Profile/3.jpg",
     username: "Alex Durden",
   },
   {
     id:4,
-    profilePicture: "Image/Profile/4.jpg",
+    profilePicture: "Profile/4.jpg",
     username: "Dora Hawks",
   },
   {
     id:5,
-    profilePicture: "Image/Profile/5.jpg",
+    profilePicture: "Profile/5.jpg",
     username: "Thomas Holden",
   },
   {
     id:6,
-    profilePicture: "Image/Profile/6.jpg",
+    profilePicture: "Profile/6.jpg",
     username: "Shirley Beauchamp",
   },
   {
     id:7,
-    profilePicture: "Image/Profile/7.jpg",
+    profilePicture: "Profile/7.jpg",
     username: "Travis Bennett",
   },
   {
     id:8,
-    profilePicture: "Image/Profile/8.jpg",
+    profilePicture: "Profile/8.jpg",
     username: "Kristen Thomas",
   },
   {
     id:9,
-    profilePicture: "Image/Profile/9.jpg",
+    profilePicture: "Profile/9.jpg",
     username: "Gary Duty",
   },
   {
     id:10,
-    profilePicture: "Image/Profile/10.jpg",
+    profilePicture: "Profile/10.jpg",
     username: "Safak Kocaoglu",
   },
 ];
@@ -55,7 +55,7 @@ export const Posts = [
   {
     id: 1,
     desc: "Love For All, Hatred For None.",
-    photo: "Image/Post/3.jpg",
+    photo: "Post/3.jpg",
     date: "5 mins ago",
     userId: 1,
     like:32,
@@ -63,7 +63,7 @@ export const Posts = [
   },
   {
     id: 2,
-    photo: "Image/Post/2.jpg",
+    photo: "Post/2.jpg",
     date: "15 mins ago",
     userId: 2,
     like:2,
@@ -72,7 +72,7 @@ export const Posts = [
   {
     id: 3,
     desc: "Every moment is a fresh beginning.",
-    photo: "Image/Post/1.jpg",
+    photo: "Post/1.jpg",
     date: "1 hour ago",
     userId: 3,
     like:61,
@@ -80,7 +80,7 @@ export const Posts = [
   },
   {
     id: 4,
-    photo: "Image/Post/4.jpg",
+    photo: "Post/4.jpg",
     date: "4 hours ago",
     userId: 4,
     like:7,
@@ -88,7 +88,7 @@ export const Posts = [
   },
   {
     id: 5,
-    photo: "Image/Post/5.jpg",
+    photo: "Post/5.jpg",
     date: "5 hours ago",
     userId: 5,
     like:23,
@@ -96,7 +96,7 @@ export const Posts = [
   },
   {
     id: 6,
-    photo: "Image/Post/6.jpg",
+    photo: "Post/6.jpg",
     date: "1 day ago",
     userId: 6,
     like:44,
@@ -105,7 +105,7 @@ export const Posts = [
   {
     id: 7,
     desc: "Never regret anything that made you smile.",
-    photo: "Image/Post/7.jpg",
+    photo: "Post/7.jpg",
     date: "2 days ago",
     userId: 7,
     like:52,
@@ -113,7 +113,7 @@ export const Posts = [
   },
   {
     id: 8,
-    photo: "Image/Post/8.jpg",
+    photo: "Post/8.jpg",
     date: "3 days ago",
     userId: 8,
     like:15,
@@ -122,7 +122,7 @@ export const Posts = [
   {
     id: 9,
     desc: "Change the world by being yourself.",
-    photo: "Image/Post/9.jpg",
+    photo: "Post/9.jpg",
     date: "5 days ago",
     userId: 9,
     like:11,
@@ -130,7 +130,7 @@ export const Posts = [
   },
   {
     id: 10,
-    photo: "Image/Post/10.jpg",
+    photo: "Post/10.jpg",
     date: "1 week ago",
     userId: 10,
     like: 104,

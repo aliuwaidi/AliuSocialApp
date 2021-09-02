@@ -36,7 +36,7 @@
 	width: 500px;
 }
 
-input {
+.registerForm > input {
 	width: 90%;
 	padding: 20px;
 	margin: 10px;
@@ -44,10 +44,11 @@ input {
 	font-size: 18px;
 }
 
-input:focus {
+.registerForm > input:focus {
 	outline: none;
 }
-button {
+
+.registerForm > button {
 	width: 100%;
 	padding: 20px;
 	margin: 15px;
@@ -59,7 +60,7 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+.reisterForm > button:hover {
 	background: #5787c5;
 }
 

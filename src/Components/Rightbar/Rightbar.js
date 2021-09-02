@@ -3,6 +3,7 @@ import React from 'react';
 import './Rightbar.css';
 import { Users } from '../../dummyData';
 import Online from '../Online/Online';
+import UserFriends from '../UserFriends/UserFriends';
 
 function Rightbar({profile}) {
 
@@ -48,30 +49,9 @@ function Rightbar({profile}) {
 
         <h4 className='rightbarTitle2' >User Friends </h4>
         <div className="rightbarFollowings">
-          <div className="rightbarFollowing">
-            <img src="/Image/Profile/3.jpg" alt="" className="rightbarFollowingImg" />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img src="/Image/Profile/4.jpg" alt="" className="rightbarFollowingImg" />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img src="/Image/Profile/5.jpg" alt="" className="rightbarFollowingImg" />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img src="/Image/Profile/6.jpg" alt="" className="rightbarFollowingImg" />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img src="/Image/Profile/7.jpg" alt="" className="rightbarFollowingImg" />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img src="/Image/Profile/8.jpg" alt="" className="rightbarFollowingImg" />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
+           {Users.map(user => (
+            <UserFriends key={user.id} user={user}/>
+          ))}
         </div>
         <div className="extras">
           <div className="birthdayContainer">

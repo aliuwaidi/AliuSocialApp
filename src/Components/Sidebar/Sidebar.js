@@ -13,6 +13,8 @@ import { Users } from '../../dummyData';
 import CloseFriend from '../CloseFriend/CloseFriend';
 
 function Sidebar() {
+
+  
   return (
     <div className='sidebar'>
       <div className="sidebarWrapper">

@@ -8,6 +8,8 @@ function Post({ post }) {
   const [like, setLike] = useState(post.like);
   const [isLiked, setIsLiked] = useState(false);
 
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+
   const userName = Users.filter(user => (user.id === post.userId));
 
   const handleClick = () => {
@@ -19,7 +21,7 @@ function Post({ post }) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img src={userName[0].profilePicture} alt="" className="postProfileImg" />
+            <img src={PF+userName[0].profilePicture} alt="" className="postProfileImg" />
             <span className="postUsername">
               {userName[0].username}
             </span>
@@ -31,7 +33,7 @@ function Post({ post }) {
         </div>
         <div className="postCenter">
           <span className="postText">{post?.desc} </span>
-          <img src={post.photo} alt="" className="postImg" />
+          <img src={PF+post.photo} alt="" className="postImg" />
         </div>
         <div className="postBottom">
           <div className="postBootomLeft">
